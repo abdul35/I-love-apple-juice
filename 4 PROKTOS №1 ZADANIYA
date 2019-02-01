@@ -1,0 +1,9 @@
+i = 0
+while  i < 666: 
+    i += 2
+    print('чёпа чотные',str(i) )
+    if i == 666:
+        o = 0
+        while o < 667:
+            print('Не чёпа чотные',str(o))
+            o+=1
