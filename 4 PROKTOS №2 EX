@@ -1,0 +1,9 @@
+from math import factorial
+o = 5  
+while o > 0:
+    i = int(input('Enter a number: '))
+    print(factorial(i))
+    if i == 0 :
+        print('Stop')        
+        break
+        
