@@ -1,6 +1,0 @@
-print((lambda a, b: int(a)**int(b))(a=input("-- integer a: "), b=input("-- integer b: ")))
-a = int(input("Водим циферку: "))
-s = int(input("Водим циферку: "))
-d = int(input("Водим циферку: "))
-e = int(input("Водим циферку: "))
-print(a**s,d**e)
