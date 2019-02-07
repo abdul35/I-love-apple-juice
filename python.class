@@ -1,0 +1,16 @@
+class Burger:
+    def __init__(self,i):
+        self.ingredients = i
+
+    @staticmethod
+    def chekingredients(ingredient):
+        if ingredient =="fish":
+            raise ValueError("Рыбы тут нетбэто стадион")
+        else:
+            return True
+
+ingredientsList = ["Chees", "Meat","Salad","Tomatos"]
+if all(Burger.chekingredients(i)for i in ingredientsList):
+    for i in ingredientsList:
+        burger = Burger(ingredientsList)
+        print(burger.ingredients)
