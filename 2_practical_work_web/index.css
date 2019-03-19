@@ -1,0 +1,59 @@
+
+section p:nth-child(1){
+    position: relative;
+    top: 35px;
+
+
+
+}
+
+.date{
+    position: relative;
+    top: 10px; 
+
+
+    color: #DDA27B;
+    margin-left: 64em;
+    margin-top: 2px;
+    font-family: Arial, Helvetica,sans-serif;
+    font-weight: 750;
+    padding-top: 0px;
+}
+
+.pixel{
+    font-style: oblique;
+    font-size: 17px;
+    margin-top: 110px;
+    margin-left: 62.5em;
+    font-weight: 700; 
+    color: #8AAB6C;
+}
+
+h1{
+
+    margin-top: -1.5em;
+    margin-left: 422px;
+    font-family: 'Times New Roman', Georgia,;
+    color: rgb(43, 42, 49);
+    font-size: 40px;
+
+}
+
+.container{
+
+    border-radius: 15px;
+    margin-top: 150em;
+    margin-bottom: 490EM;
+    width: 700px;
+    height: 350px;                                        /**/   
+    border: 6px solid #EFE9D6;                        /*КОНТЭЕНЕР_РАМКА */
+                          
+    box-shadow: 1px 1px 2px 2px rgb(255, 255, 255); /* ТЕНЬ КОНТЭЕНЕРА */
+    margin-left: 420px;                              /* ОТСТУПЫ С ЛЕВА  */
+    margin-top: 1em;                                /*ОТСТУП С */
+    background-image:  url(sloy.png) ;
+;                
+    background-size: 971px;                     /* РАЗМЕР ФОТКИ */
+    position: absolute;
+
+}
