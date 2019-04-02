@@ -1,0 +1,155 @@
+body{
+    
+    background-image: linear-gradient(55deg, #8E78FF , #FC7D7B);
+    display: inline-block;
+}
+
+
+
+
+.block-1{
+   
+    position: relative; 
+    margin: 50px;
+}
+
+.foto-1{
+    
+    background: rgb(248, 120, 0);
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+    left: 5em;
+    top: 0.8em;
+    height: 250px;
+    width: 320px;
+
+}
+
+.zagolovka-1{
+    font-size: 18px;
+    font-family:Tahoma;
+    position: absolute;
+    top: 15.4em;
+    left: 10.2em;
+   
+    
+}
+.paragraf-1{
+    
+    position: relative;
+    top: 3.5em;
+    left:  5.0em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.bt-1{
+    font-weight: 300;
+    position: relative;
+    top: 6.0em;
+    left: 9.8em;
+    text-decoration: none;
+    padding: 15.1px 2.5em;    
+    background: #fff;
+    border-radius: 25px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.block-2{
+
+ 
+    margin: 0px;
+    padding: 0px;    
+
+}
+
+.foto-2{
+    position: relative;
+    bottom: 25.9em;
+    left: 30em;
+    height: 250px;
+    width: 320px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.zagolovka-2{
+    
+    position: absolute;
+    top: 18.8em;
+    left: 32.8em;
+    font-size: 18px;
+    font-family:Tahoma;
+    
+}
+
+
+
+.paragraf-2{
+ 
+    position: absolute;
+    bottom: 12.5em;
+    right: 35.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+
+}
+.bt-2{
+    font-weight: 300;
+    position: relative;
+    bottom: 15.2em;
+    left: 35.1em;
+    text-decoration: none;
+    padding: 15.1px 2.6em;    
+    background: #fff;
+    border-radius: 25px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.foto-3{
+    position: relative;
+    bottom: 45.0em;
+    left: 49.3em;
+    height: 250px;
+    width: 320px;
+    border-radius: 5px 5px 0px 0px;
+
+}
+.zagolovka-3{
+    
+    position: absolute;
+    bottom: 14.5em;
+    right: 16em;
+    font-size: 18px;
+    font-family:Tahoma;
+    
+}
+.paragraf-3{
+    position: absolute;
+    bottom: 11.5em;
+    right: 14.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+.bt-3{
+   
+    position: relative;
+    bottom: 34.3em;
+    left: 54.0em;
+    text-decoration: none;
+    padding: 15.1px 2.6em;    
+    background: #fff;
+    border-radius: 25px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
