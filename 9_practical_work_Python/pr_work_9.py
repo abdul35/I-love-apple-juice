@@ -1,4 +1,4 @@
-string = 'STSRAQWE'
+string = 'noL2'
 i = string.count('LoL')
 if i == 1:
     find = string.index('LoL')
