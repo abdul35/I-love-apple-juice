@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap');
+
+
+
+body{
+    
+    background: rgb(211, 150, 196);
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+/* i:active{    
+    color: whitesmoke;
+    text-shadow: 1px 2px 3px  rgb(195, 215, 231);
+} */
+i:focus{
+    /* text-shadow: 5cm 1vmax 2cm  3pt red;  */
+    border: none;
+    background: none;
+    color: rgba(0, 103, 238, 0.966);
+}
+a{
+    padding-left: 15em;
+    display: inline-block;    
+    position: relative;
+    cursor:pointer;
+}
+
+h3{
+
+    color: rgb(226, 43, 226);
+    font-size: 3.5em;
+    margin-left: .9em;
+    margin-top: .5em;
+}
+
+h3 + p{
+    margin-top: -2em;
+    font-family: 'Playfair Display SC', serif;
+    margin-left: 1.9em;
+    font-size: 1.7em;
+    color: rgb(226, 43, 226);
+    /* text-transform: initial; */
+}
+section{
+
+    display: inline-block;
+    position: relative;
+    width: 80em;
+    height: 38em;
+    background: #fff;
+    margin-left:2.7em;
+    top: .5em;    
+
+}
+
+figure{
+
+    /* box-shadow: 3px 7px 24px -5.5px rgba(56, 55, 55, 0.25); */
+    display: inline-block;
+    width: 16em;
+    height: 20em;
+    background: white;
+    
+}
+
+figure:hover{
+    box-shadow: 3px 7px 24px -5.5px rgba(56, 55, 55, 0.25);
+}
+
+article{
+
+    position: absolute;
+    right: 10em;
+    top: 2em;
+
+}
+.arrow .right{
+    float: right;
+    padding-right: 9.5em;
+    position: relative;
+    top: 10px;
+    
+}
+.arrow .left{
+    position: absolute;
+    top: 12em;
+    margin-left:-9.0em;
+    
+}
+
+.cake1{
+    padding-top: 25px;
+    margin: 5px;
+    width:15em;
+    height: 13em;   
+}
+.cake2{
+    padding: 15px 25px 0px 15px;
+}
+.arrow{
+    display: block;
+}
+div .cake3{
+    width: 19em;
+    height: 16em;
+    margin-left: 2em;
+    transform: translate(-20px,-55px);
+}
+figure::before{
+    
+    color: #000;
+    content: 'Ягодные торт';
+    font-family: 'Roboto Condensed', sans-serif;
+    position: absolute;
+    font-size: 1em;
+    bottom: 2.5em;
+    margin-left: 5.5em;
+
+}
+figure::after{
+    position: relative;
+    top: 10px;
+    content: '700 руб/кг';
+    margin-left: 5em;
+    padding: 0 0 0 .5em;
+    
+
+}
+article ~ p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    color: #140;
+    display: block;
+    transform: translate(850px,200px);
+    
+}
+article + p a{
+    text-decoration: none;
+}
+[class=choice]{
+    left: -29.3em;
+    color: rgb(17, 16, 16);
+    top: 8em;
+    position: absolute;
+    /* z-index: 4000000; */
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+form > [placeholder="       Выбор начинки"]
+{
+    
+    border-color: rgb(180, 180, 180);
+    font-family: 'Noto Serif', serif;
+    margin: 7em 6em 4em 3.5em;   
+    outline: none;
+    border-style: none none solid none ;
+
+}
+
+input::placeholder{
+    opacity: 0.3;
+}
+
+
+.filling
+{
+
+    font-size: 24px;
+    color: rgb(226, 43, 226);
+    position: absolute;
+    left: 2.4em;
+    bottom: 2.8em;
+    
+}
+[placeholder="    KG"] + label{
+    position: relative;
+    bottom: 38px;
+    right: 5.1em;
+    color: rgb(226, 43, 226);
+    font-size: 1.6em;
+    
+}
+
+[placeholder="    KG"]{
+    border-style: none none solid none;
+    border-color:  rgb(180, 180, 180);
+    outline: none;
+    width: 8em;
+    margin-left: -35px;
+}
+
+input:nth-child(5){
+    border-color:  rgb(180, 180, 180);
+    border-style: none none solid none;
+    margin-left: -25px;
+    outline: none;
+
+}
+
+label:last-of-type{
+    position: relative;
+    top: -1.5em;
+    left: -8.6em;
+    color: rgb(226, 43, 226);
+    font-size: 1.6em;
+
+}
+
+.form form label{
+    font-family: 'Dancing Script', cursive;
+}
+
+.button{
+    
+    background: crimson;
+    border: none;
+    padding: 18px 60px 18px 60px;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    border-radius: 25px;
+    outline: none;
+    position: relative;
+    transition: 1s;
+    left: -11em;
+    bottom: 15px;
+
+}
+.button:hover{
+    
+    transform: translate(-10%, 0) rotate(7deg);
+
+}
+
+
+
+
+
+
+
