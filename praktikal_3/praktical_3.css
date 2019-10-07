@@ -1,0 +1,151 @@
+
+h1{
+    text-align: center;
+}
+h1::before{    
+    position: absolute;
+    content: '';
+    width: 7vmax;
+    height: 3px;
+    background-color: red;
+    left: 46.3vmax;
+    top: 0.7vmax;
+}
+h1::after{
+    position: absolute;
+    content: '';
+    width: 7vmax;
+    height: 3px;
+    background-color: red;
+    left: 46.3vmax;
+    top: 5.3vmax;
+}
+.border-1{
+    position: absolute;
+    top: 8.6vmax;
+    left: 41.8vmax;
+    width: 15.5vmax;
+    height: 17.5vmax;
+    border: 2px solid white;
+    color: wheat;
+    text-align: center;   
+}
+.bappe{
+    font-size: 2vmax;
+    position: relative;
+    top: 8vmax;
+    color: white;
+}
+.bape{
+    margin-left: 37.5vmax;
+    margin-top: 3vmax;
+    height: 19.5vmax;
+    width: 17.5vmax;
+}
+.real{
+    float: right;
+    margin-top: -21.0vmax;
+    margin-right: 18.2vmax;
+    width: 17.5vmax;
+    height: 19.5vmax;
+}
+.Zbor{
+    position: absolute;
+    width: 15.5vmax;
+    height: 17.5vmax;
+    border: 2px solid white;
+    top: 8.6vmax;
+    right: 22.6vmax;
+    text-align: center;
+}
+.zbor{
+    font-size: 2vmax;
+    position: relative;
+    top: 8vmax;
+    color: white;
+}
+.messi{
+    float: left;
+    margin-left: 19.0vmax;
+    margin-top: -21vmax;
+    height: 19.5vmax;
+    width: 17.5vmax;
+}
+.mesi-border{
+    position: absolute;
+    width: 15.5vmax;
+    height: 17.5vmax;
+    border: 2px solid white;
+    top: 8.6vmax;
+    left: 23.4vmax;
+    text-align: center;
+}
+.Messi{
+    font-size: 2vmax;
+    position: relative;
+    top: 8vmax;
+    color: rgb(24, 22, 22);
+    font-weight: bold;
+}
+.Modric{
+    margin-left: 19vmax;
+    margin-top: -0.7vmax;
+    height: 19vmax;
+    width: 27.5vmax;
+}
+.modric{
+    /* z-index: 1; */
+    position: relative;
+    bottom: 12vmax;
+    margin-left: 21.9vmax;
+    font-size: 1.7vmax;
+    font-weight: bold;
+    width: 322px;
+    text-align: center;
+    color: rgb(122, 0, 47);
+}
+.modric::before{
+    position: absolute;
+    bottom: 6.5vmax;
+    left: 8.0vmax;
+    content: '';
+    width: 7.5vmax;
+    height: 0.1vmax;
+    background-color: white;
+}
+.Ronaldino{
+    position: relative;
+    bottom: 28.5vmax;
+    left: 47.5vmax;
+    height: 19vmax;
+    width: 26.0vmax;
+}
+.ronaldino{
+    position: absolute;
+    top: 36.5vmax;
+    right: 23vmax;
+    font-size: 1.7vmax;
+    font-weight: bold;
+    width: 322px;
+    text-align: center;
+}
+.ronaldino::before{
+    position: absolute;
+    bottom: 6.3vmax;
+    left: 8.2vmax;
+    content: '';
+    width: 7.0vmax;
+    height: 2px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

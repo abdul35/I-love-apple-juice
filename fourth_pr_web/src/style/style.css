@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+body
+{
+    background:no-repeat url(../imges/images.jpg);
+
+    background-size: 100%,100%;
+    /* overflow: hidden; */
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1:first-of-type
+{
+    margin-left: 15vw;
+    color: beige;
+    font-weight: 900;
+}
+
+h1 > a 
+{
+    color: beige;
+    text-decoration: none;
+}
+
+ul:only-of-type
+{
+    
+    list-style: none;
+
+}
+
+nav > ul > li > a
+{
+    /* font-weight: normal; */
+    font-family: Tahoma;
+    font-size: 17px;
+    color: rgb(121, 228, 107);
+    font-weight: normal;
+    text-decoration: none;
+
+}
+
+li:nth-child(6)
+{
+    color: white;
+    position: absolute;
+    top: 3vh;
+    right: 10vw;
+    padding: 7.7px 25px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+li:nth-child(6):hover
+{
+    
+    transition: .7s;
+    background: rgb(255, 255, 255);
+}
+
+li:nth-child(5)
+{
+    color: white;
+    position: absolute;
+    top: 3vh;
+    right: 18vw;
+    padding: 7.7px 25px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+li:nth-child(5):hover
+{
+    
+    transition: .7s;
+    background: rgb(255, 255, 255);
+
+}
+
+li:nth-child(4)
+{
+    color: white;
+    position: absolute;
+    top: 3vh;
+    right: 26vw;
+    padding: 7.7px 25px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+li:nth-child(4):hover
+{
+    
+    transition: .7s;
+    background: rgb(255, 255, 255);
+
+}
+
+
+li:nth-child(3)
+{
+    color: white;
+    
+    position: absolute;
+    top: 3vh;
+    right: 33vw;
+    padding: 7.7px 25px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+li:nth-child(3):hover
+{
+    
+    transition: .7s;
+    background: rgb(255, 255, 255);
+
+}
+
+
+li:nth-child(2)
+{
+    color: white;
+    position: absolute;
+    top: 3vh;
+    right: 41vw;
+    padding: 7.7px 25px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+li:nth-child(2):hover
+{
+    
+    transition: .7s;
+    background: rgb(255, 255, 255);
+    
+}
+
+
+li:nth-child(1)
+{
+    color: white;
+    position: absolute;
+    top: 3vh;
+    right: 50vw;
+    padding: 7.7px 25px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+li:nth-child(1):hover
+{
+    
+    transition: .7s;
+    background: rgb(255, 255, 255);
+    
+}
+
+/* ==================section======================== */
+
+header ~ section
+{
+    margin-top: 8em;
+    height: 57vh;
+    /* border: 1px solid red; */
+
+}
+
+img:only-of-type
+{
+    margin-bottom: -4vh;
+    margin-left: 15vw;
+    width: 6em;
+    height: 6em;
+    border-radius: 18px;
+    background: linear-gradient(65deg,rgb(255, 212, 23),rgb(255, 102, 0));
+}
+
+section > a + h2:only-of-type
+{
+    margin-left: 14.7vw;
+    font-weight: 200;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 4.4em;
+    color: white;
+    
+    
+        
+}
+
+section > a + h2:only-of-type::after
+{   
+    
+    padding-left: 15px;
+    content: 'better';
+    font-weight: bold;
+    font-family: 'Franklin Gothic Normal', 'Arial Narrow', Arial, sans-serif;
+}
+
+span:only-of-type
+{
+    font-weight: 900;
+
+}
+section > h2 + p:only-of-type
+{
+    font-family: 'Franklin Gothic Normal';
+    margin-top: -7vh;
+    white-space: pre-wrap;
+    color:whitesmoke;
+    margin-left: 10.4vw;
+    padding-bottom: 15px;
+}
+article > a:nth-child(1)
+{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 6px 10px;
+    font-size: 1.2em;
+    /* margin-top: 4vh; */
+    margin-left: 15vw;
+    border-radius: 8px;
+    color:white;
+    text-decoration: none;
+}
+article > a:nth-child(1)::after
+{
+    content: 'Google Play';
+    padding-left: 5px;
+}
+  
+article > a:nth-child(2)
+{   
+    border: 1px solid rgb(255, 255, 255);
+    padding: 6px 8px;
+    font-size: 1.2em;
+    margin-top: 2vh;
+    margin-left: 1vw;
+    border-radius: 8px;
+    color:white;
+    text-decoration: none;
+}
+
+article > a:nth-child(2)::after
+{
+    content: 'AppStory';
+    padding-left: 5px;
+}

@@ -1,0 +1,160 @@
+ul > li > a:last-child
+{
+    text-decoration: none;
+    position: relative;
+    right:1vw;
+    top:  5vh;
+    padding: 15px;    
+
+}
+
+nav > ul > li > a:nth-last-child(2)
+{
+    color: green;
+    background-color:rgba(255, 0, 0, 0);
+    position: absolute;
+    margin-left: 77vw;
+    top:  5vh;    
+    text-decoration: none;
+    transition: .8s;
+    
+}
+
+
+nav >ul > li > a:nth-last-child(3)
+{
+    position: absolute;
+    right: 27.6vw;
+    top: 5vh;    
+    text-decoration: none;
+
+}
+
+
+nav >ul > li > a:nth-last-child(4)
+{
+    position: absolute;
+    right: 35vw;
+    top: 5vh;    
+    text-decoration: none;
+
+}
+
+
+nav >ul > li > a:nth-last-child(5)
+{
+    position: absolute;
+    right: 43.5vw;
+    top: 5vh;    
+    text-decoration: none;
+
+}
+
+
+nav >ul > li > a:nth-last-child(6)
+{
+    position: absolute;
+    right: 53vw;
+    top: 5vh;    
+    text-decoration: none;
+
+}
+
+nav > ul  
+{
+    
+    list-style: none;
+}
+/* ========================================== */
+
+/* a:last-child:hover
+{   
+    background: floralwhite;
+    padding: .5em  1em;
+
+}
+
+
+
+
+
+nav > a:nth-last-child(2):hover
+{
+    
+    border-radius: 25px;
+   
+    color: brown;
+    background-color: rgb(150, 150, 150);
+    background-size: 15px 15px;
+}
+
+
+nav > a:nth-last-child(3)
+{
+    position: absolute;
+    right: 27.6vw;
+    top: 5vh;    
+    text-decoration: none;
+
+}
+
+
+nav > a:nth-last-child(4)
+{
+    position: absolute;
+    right: 35vw;
+    top: 5vh;    
+    text-decoration: none;
+
+}
+
+
+nav > a:nth-last-child(5)
+{
+    position: absolute;
+    right: 43.5vw;
+    top: 5vh;    
+    text-decoration: none;
+
+}
+
+
+nav > a:nth-last-child(6)
+{
+    position: absolute;
+    right: 53vw;
+    top: 5vh;    
+    text-decoration: none;
+
+}
+}
+
+
+nav > a:nth-last-child(4):hover
+{
+    
+    
+        
+    text-decoration: none;
+
+}
+
+
+nav > a:nth-last-child(5):hover
+{
+    
+    
+        
+    text-decoration: none;
+
+}
+
+
+nav > a:nth-last-child(6):hover
+{
+    
+    
+        
+    text-decoration: none;
+
+} */

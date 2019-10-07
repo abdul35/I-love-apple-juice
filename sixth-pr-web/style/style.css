@@ -1,0 +1,133 @@
+/* background-position:370px center, 120px 150px, center center; */
+body
+{
+    /* filter: blur(1px); */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    filter: opacity(.9);
+    background-color:rgb(255, 255, 255);
+}
+
+main
+{
+    
+    width: 1500px;
+    height: 100vh;
+    background:no-repeat url(../imges/bicycle2.jpg), url(../imges/disco.jpg);  
+    background-position:0px 0px , 660px 0px;
+    background-size: 660px 660px,720px 670px;
+    background-repeat: no-repeat;
+}
+
+h1:first-of-type
+{   
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    padding-left: 25px;
+}
+
+header
+{    
+    height: 12vh;
+    background: rgba(170, 169, 169, 0.527);
+}
+
+h1 + nav 
+{   
+    right: 35px;
+    top: 25px;
+    position: absolute;
+    font-size: 1.9em;   
+}
+
+nav > i:first-child
+{
+    color: #fff;
+    transition: 1s;
+}
+
+nav i:first-of-type:hover
+{
+    transition: 1s;
+    transform: scale(1.6) rotate3d(0, 1, 0.0, 2.452rad);
+    text-shadow: 4px 1px 3px rgb(67, 156, 216) ;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header + article 
+{
+    margin-left: 13%;
+    margin-top: 10%;
+    width: 15em;
+    height: 25em;
+}
+
+article > h2
+{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin-bottom: -41px;
+
+}
+
+article > h2 + p
+{
+    
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff;
+    font-family: 'Tahoma';
+    margin-bottom: 2.5em;
+}
+article > h2 + p + a
+{
+
+    color: rgb(12, 10, 10);
+    text-align: center;
+    font-size: 1.3em;
+    padding: 15px 25px;
+    background: rgba(205, 224, 224, 0.479);
+    font-family: 'Tahoma';
+    margin-left: 12px;
+    margin-top: 12em;
+    filter: blur(.6px);
+    transition: .7s;
+    border-radius: 1px;
+}
+
+article > h2 + p + a:hover
+{
+    transition: .7s;
+    filter: none;
+    color: rgb(254, 247, 255);
+    background-color:rgba(49, 49, 49, 0.479); 
+    box-shadow: inset .5px 0px 4px 5px rgba(23, 86, 163, 0.397);
+}
+
+article ~ article
+{   
+    padding: 2px 0px;
+    margin-top: -68.8vh;
+    margin-left: 65.9vw;
+    width: 15em;
+    height: 25em;
+    position: absolute;
+    /* background: red; */
+}
+
+@media (max-width: 600px)  {
+    main{
+        /* background-size: 25%;  */
+        font-size: .5em;
+        
+        /* display: flex; */
+    }
+} 
