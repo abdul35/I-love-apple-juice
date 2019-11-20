@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <title>music player</title>
 </head>
-<body>
-    <div class="wrap">
 
+<body>
+    <img src="disco.jpg" class="background" alt="">
+    <!-- <img src="/play-button.png" alt=""> -->
+    <div class="wrap">
         <section class="main">
-            
-            <audio controls>
-                <source src="trek_1.mp3" type="">                
-            </audio>
-                
+            <button id="back"><img src="back.svg" class="back__icon" alt=""></button>
+            <button id="play"><img class="img-play" src="play-button.svg" alt="img"></button>
+            <button id="next"><img src="next.svg" class="next__icon" alt=""></button>
         </section>
+        <div class="progress-bar">
+            <div class="progress-bar__filling"></div>
+            <div class="progress-bar__handle"></div>
+        </div>
     </div>
 
+    <script src="app.js"></script>
 </body>
+
 </html>
