@@ -1,0 +1,124 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-image: 'url(pa)';
+}
+.volume {
+  position:absolute;
+  z-index: 23141;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.main {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 70vw;
+  height: 70vh;
+  background-color: rgba(232, 232, 232, 0.753);
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.wrap {
+  margin-top: 80px;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+
+}
+
+[id=play] img {
+  width: 45px;
+
+}
+
+[id=play] {
+  margin-bottom: 35px;
+  border-radius: 50%;
+}
+
+.back__icon {
+  width: 30px;
+  height: 25px;
+  margin-bottom: 40px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.next__icon {
+  cursor: pointer;
+  width: 30px;
+  height: 25px;
+  margin-bottom: 40px;
+  margin-left: 11px;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.progress-bar {
+  width: 350px;
+  height: 3px;
+  display: flex;
+  bottom: 5%;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.progress-bar__filling {
+  height: 3px;
+  width: 2.7px;
+  background-color: rgb(104, 105, 103);
+  position: relative;
+  border-radius: 25px;
+  margin-bottom: 16px;
+
+}
+
+
+.song-list {
+  
+  font-family: sans-serif;
+  color: black;
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  display: inline;
+  width: 400px;
+  height: 350px;
+  margin-left: 425px;
+  margin-top: -95px;
+  padding: 44px 25px 20px 70px;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  position: absolute;
+  
+  z-index: 222; 
+
+}
+
+
+
+
+.active {
+  border-left: 2px solid blue;
+}

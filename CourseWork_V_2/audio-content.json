@@ -1,0 +1,17 @@
+[   
+    {
+        "audio" : "songs/ace-of-base_-_happy-nation.mp3",
+        "name-artist" : "ace-of-bace",
+        "name-song" : "happy-nation"
+    },   
+    {
+        "audio" : "songs/duke-dumont_-_ocean-drive.mp3",
+        "name-artist" : "duke-dumont",
+        "name-song" : "ocean-drive"
+    },
+    {
+        "audio" : "songs/trek_1.mp3",
+        "name-artist" : "no-name",
+        "name-song" : "rok"
+    }
+]
