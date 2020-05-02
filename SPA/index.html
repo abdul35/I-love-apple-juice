@@ -9,65 +9,68 @@
 </head>
 
 <body>
-    <header class="header--out-style header">
-        <div class="container header__inner">
-            <div class="header__logo">
-                <a class="logo" href="#">
-                    <img src="images/logo.svg" alt="logo">
-                </a>
+    
+    <header class="header">
+        <section class="wrap  wrap--margin">
+            <div class="container header__inner">
+                <div class="header__logo">
+                    <a class="logo" href="#">
+                        <img src="images/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <!-- <section class="header__content"> -->
+                    <h1 class="header__title">Скидка 30% </br> на первый заказ</h1>
+                    <h4 class="header__desc">
+                        Новым клиентам при заказе через сайт
+                        или мобильное приложение
+                    </h4>
+                    <button class="header__btn">Получить скидку</button>
+                <!-- </section> -->
             </div>
-            <section class="header__content">
-                <h1 class="header__title">Скидка 30% </br> на первый заказ</h1>
-                <h4 class="header__desc">
-                    Новым клиентам при заказе через сайт
-                    или мобильное приложение
-                </h4>
-                <button class="header__btn">Получить скидку</button>
-            </section>
-        </div>
+        
+            <div class="accordion">
+                
+                <a class="accordion__share-widget" id="accordion" href="#">
+                    <img src="images/share-widget.svg" alt="share-widget">
+                </a>
+                <ul class="accordion__socials-list">
+                    <li class="socials-list__item">
+                        <a class="socials-list__link" href="#">
+                            <img src="images/vk-icon.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="socials-list__item">
+                        <a class="socials-list__link" href="#">
+                            <img src="images/icon-whatsapp.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="socials-list__item">
+                        <a class="socials-list__link" href="#">
+                            <img src="images/icon-telegram.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="socials-list__item socials-list__item-cursor--pointer" id='dots'>
+                        <img src="images/dots.svg" alt="dots">
+                        <ul class="accordion__dots-list">
+                            <li class="socials-list__item">
+                                <a href="#">
+                                    <img src="images/icon-facebook.svg" alt="icon-facebook">
+                                </a>
+                            </li>
+                            <li class="socials-list__item">
+                                <a href="#">
+                                    <img src="images/icon-twitter.svg" alt="icon-twitter">
+                                </a>
+                            </li>
+                        </ul>
 
-        <div class="accordion">
-
-            <a class="accordion__share-widget" id="accordion" href="#">
-                <img src="images/share-widget.svg" alt="share-widget">
-            </a>
-            <ul class="accordion__socials-list">
-                <li class="socials-list__item">
-                    <a class="socials-list__link" href="#">
-                        <img src="images/vk-icon.svg" alt="">
-                    </a>
-                </li>
-                <li class="socials-list__item">
-                    <a class="socials-list__link" href="#">
-                        <img src="images/icon-whatsapp.svg" alt="">
-                    </a>
-                </li>
-                <li class="socials-list__item">
-                    <a class="socials-list__link" href="#">
-                        <img src="images/icon-telegram.svg" alt="">
-                    </a>
-                </li>
-                <li class="socials-list__item socials-list__item-cursor--pointer" id='dots'>
-                    <img src="images/dots.svg" alt="dots">
-                    <ul class="accordion__dots-list">
-                        <li class="socials-list__item">
-                            <a href="#">
-                                <img src="images/icon-facebook.svg" alt="icon-facebook">
-                            </a>
-                        </li>
-                        <li class="socials-list__item">
-                            <a href="#">
-                                <img src="images/icon-twitter.svg" alt="icon-twitter">
-                            </a>
-                        </li>
-                    </ul>
-
-                </li>
-
-            </ul>
-        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </section>
     </header>
-
+    
     <main class="main">
 
         <div class="container">
@@ -75,32 +78,44 @@
                 <h4 class="ingredients__title">Лучше ингредиенты. Лучше пицца.</h4>
                 <div class="ingredients__items">
                     <div class="ingredients__item">
-                        <h5 class="ingredients__item-title">Сыр</h5>
-                        <p class="ingredients__text">
-                            Наш фирменный сыр – моцарелла отличного качества. Если хотите больше сыра, можете добавить
-                            опцию «сырный борт»
-                        </p>
+                        <div class="ingredients__item-text">
+                            <h5 class="ingredients__item-title">Сыр</h5>
+                            <p class="ingredients__text">
+                                Наш фирменный сыр – моцарелла отличного качества. Если хотите больше сыра, можете добавить
+                                опцию «сырный борт»
+                            </p>
+                        </div>
+                        <img class="ingredients__item-img" src="images/chesses-1.svg" alt="">
                     </div>
                     <div class="ingredients__item">
-                        <h5 class="ingredients__item-title">Соус</h5>
-                        <p class="ingredients__text">
-                            Готовим из спелых томатов. Время между сбором овощей и приготовлением соуса не превышает 6
-                            часов
-                        </p>
+                        <div class="ingredients__item-text">
+                            <h5 class="ingredients__item-title">Соус</h5>
+                            <p class="ingredients__text">
+                                Готовим из спелых томатов. Время между сбором овощей и приготовлением соуса не превышает 6
+                                часов
+                            </p>
+                        </div>
+                        <img class="ingredients__item-img" src="images/tomato-2.svg" alt="">
                     </div>
                     <div class="ingredients__item">
-                        <h5 class="ingredients__item-title">Тесто</h5>
-                        <p class="ingredients__text">
-                            Правильное тесто – основа для лучшей пиццы. Мы всегда используем только свежее тесто,
-                            которое никогда не замораживаем
-                        </p>
+                        <div class="ingredients__item-text">
+                            <h5 class="ingredients__item-title">Тесто</h5>
+                            <p class="ingredients__text">
+                                Правильное тесто – основа для лучшей пиццы. Мы всегда используем только свежее тесто,
+                                которое никогда не замораживаем
+                            </p>
+                        </div>
+                        <img class="ingredients__item-img" src="images/dought-3.svg" alt="">
                     </div>
                     <div class="ingredients__item">
-                        <h5 class="ingredients__item-title">Ингредиенты</h5>
-                        <p class="ingredients__text">
-                            Мы используем только свежие ингредиенты, это и делает нашу пиццу такой вкусной.
-                            Добавляйте/убирайте любые ингредиенты на свой вкус
-                        </p>
+                        <div class="ingredients__item-text">
+                            <h5 class="ingredients__item-title">Ингредиенты</h5>
+                            <p class="ingredients__text">
+                                Мы используем только свежие ингредиенты, это и делает нашу пиццу такой вкусной.
+                                Добавляйте убирайте любые ингредиенты на свой вкус
+                            </p>
+                        </div>
+                        <img class="ingredients__item-img" src="images/ingredients-4.svg" alt="">
                     </div>
                 </div>
             </section>
